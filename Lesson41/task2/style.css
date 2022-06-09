@@ -1,0 +1,73 @@
+.container{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+.field{
+    width: 950px;
+    background-color: bisque;
+    border: 2px solid rgb(0, 0, 104);
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+}
+h1{
+    margin-right: 15px;
+    font-size: 25px;
+}
+h2{
+    margin-left: 70px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+input{
+    margin-right: 50px;
+
+}
+.btn-add{
+    margin-right: 20px;
+}
+.btn{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(20, 196, 212, 0.63);
+    border-radius: 10%;
+}

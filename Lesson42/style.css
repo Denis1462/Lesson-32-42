@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    position: relative;
+}
+.card{
+    width: 500px;
+    height: 250px;
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,198,255,1) 13%, rgba(243,255,0,1) 100%);
+    
+}
